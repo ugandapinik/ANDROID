@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/colorAccent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="User Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#eee"
+        android:textColor="#ffff"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#eee"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#eee"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:text="Registration Now"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidLoginRegistration</string>
+    <string name="title_activity_login_success">LoginSuccessActivity</string>
+</resources>

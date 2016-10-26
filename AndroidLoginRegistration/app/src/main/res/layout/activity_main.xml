@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#E74856"
+    tools:context="www.jewel_mahmud.com.androidloginregistration.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TALK TO ME"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="35dp"
+        android:id="@+id/app_title"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#3a3a3a"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/app_title"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/label_email"
+            android:layout_marginBottom="5dp"
+            android:textColor="#3a3a3a"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_email"
+            android:hint="enter email address"
+            android:id="@+id/log_email_address"
+            android:textColor="#f5f5f5"
+            android:background="#f99"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/label_password"
+            android:layout_below="@+id/log_email_address"
+            android:layout_marginTop="10dp"
+            android:textColor="#3a3a3a"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_password"
+            android:hint="enter password"
+            android:textColor="#f5f5f5"
+            android:id="@+id/log_password"
+            android:background="#f99"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/log_password"
+            android:text="Submit"
+            android:id="@+id/btn_login"
+            android:layout_marginTop="30dp"
+            android:background="#3a3a3a"
+            android:textColor="#fff"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:id="@+id/register_link"
+            android:text="New User? Register Now"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#f5f5f5"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
